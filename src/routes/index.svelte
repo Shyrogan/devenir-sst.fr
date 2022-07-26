@@ -11,8 +11,8 @@
 	</h1>
 
 	<p class="text-center text-xl w-8/12 font-semibold text-gray-600">
-		Vous êtes une startup ou une PME ? Vous souhaitez formez vos employés aux premiers secours ? Que
-		ce soit PSC1 ou SST - Nous sommes là pour vous !
+		Vous êtes une start-up ou une PME ? Vous souhaitez former vos employés aux premiers secours ?
+		Que ce soit PSC1 ou SST - Nous sommes là pour vous !
 	</p>
 </div>
 
@@ -42,9 +42,9 @@
 		<h2 class="text-xl text-red-500 font-bold">Prise de rendez-vous</h2>
 		<h1 class="text-3xl font-bold">Tout est planifié, vous choisissez.</h1>
 		<p class="text-gray-700 font-medium">
-			Si vous avez fais votre choix, établissez des dates qui vous arrange et appelez nous pour
+			Si vous avez fait votre choix, établissez des dates qui vous arrange et appelez nous pour
 			essayer de prendre rendez-vous. Nous faisons au mieux pour que les rendez-vous vous
-			correspond.
+			correspondent.
 		</p>
 	</div>
 

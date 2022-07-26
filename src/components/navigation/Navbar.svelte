@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import Navlink from './Navlink.svelte';
 	import GiHeartOrgan from 'svelte-icons/gi/GiHeartOrgan.svelte';
 
 	let scrolled = false;
@@ -24,7 +23,7 @@
 
 	<div class="flex-initial">
 		<div class="flex justify-end items-center relative">
-			<div class="flex mr-4 items-center">
+			<div class="flex mr-4 items-center gap-6">
 				<a class="duration-300 hover:text-red-500 inline-block py-2 px-3 font-extrabold" href="/">
 					Accueil
 				</a>
@@ -33,6 +32,12 @@
 					href="/equipe"
 				>
 					Équipe
+				</a>
+				<a
+					class="duration-300 hover:bg-black inline-block py-2 px-3 font-extrabold bg-red-500 rounded-full text-white"
+					href="/contact"
+				>
+					Contact
 				</a>
 			</div>
 		</div>
