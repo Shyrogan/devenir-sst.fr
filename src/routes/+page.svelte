@@ -11,13 +11,16 @@
 	</h1>
 
 	<p class="text-center text-xl w-8/12 font-semibold text-gray-600">
-		Vous êtes une start-up ou une PME ? Vous souhaitez former vos employés aux premiers secours ?
-		Que ce soit PSC1 ou SST - Nous sommes là pour vous !
+		Vous êtes une startup ou une PME ? Vous souhaitez formez vos employés aux premiers secours ? Que
+		ce soit PSC1 ou SST — Nous sommes là pour vous !
 	</p>
 </div>
 
-<div class="flex flex-row items-center justify-center">
-	<img class="w-screen" alt="First aid" src="images/big-image.png" />
+<div class="flex flex-col align-middle justify-center items-center">
+	<img
+			class="w-9/12"
+			alt="First aid"
+			src="images/teach.svg" />
 </div>
 
 <div class="flex lg:flex-row flex-col items-center justify-center gap-20 my-32">
@@ -32,8 +35,8 @@
 
 	<img
 		alt="Formation"
-		class="lg:w-1/2 w-3/4"
-		src="https://img.freepik.com/free-vector/hand-drawn-people-asking-questions-illustration_23-2148906555.jpg?t=st=1658154326~exp=1658154926~hmac=dbf4992338950e02056800ca6d3de17e347dac1e1db271e0b50cf1cc0385687c&w=1480"
+		class="lg:w-1/3 w-1/4"
+		src="/images/fast.svg"
 	/>
 </div>
 
@@ -42,16 +45,16 @@
 		<h2 class="text-xl text-red-500 font-bold">Prise de rendez-vous</h2>
 		<h1 class="text-3xl font-bold">Tout est planifié, vous choisissez.</h1>
 		<p class="text-gray-700 font-medium">
-			Si vous avez fait votre choix, établissez des dates qui vous arrange et appelez nous pour
+			Si vous avez fais votre choix, établissez des dates qui vous arrange et appelez nous pour
 			essayer de prendre rendez-vous. Nous faisons au mieux pour que les rendez-vous vous
-			correspondent.
+			correspond.
 		</p>
 	</div>
 
 	<img
 		alt="Formation"
 		class="lg:w-1/2 w-3/4"
-		src="https://img.freepik.com/free-vector/hand-drawn-people-asking-questions-illustration_23-2148906555.jpg?t=st=1658154326~exp=1658154926~hmac=dbf4992338950e02056800ca6d3de17e347dac1e1db271e0b50cf1cc0385687c&w=1480"
+		src="/images/planned.svg"
 	/>
 </div>
 

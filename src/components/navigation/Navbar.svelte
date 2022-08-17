@@ -1,9 +1,8 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import GiHeartOrgan from 'svelte-icons/gi/GiHeartOrgan.svelte';
+	import GiHeartOrgan from 'svelte-icons/gi/GiHeartOrgan.svelte'
 
 	let scrolled = false;
-
 	onMount(() => {
 		window.onscroll = () => {
 			scrolled = window.scrollY > 0;
@@ -11,43 +10,36 @@
 	});
 </script>
 
-<nav class:scrolled class="duration-500">
-	<div class="inline-flex align-middle">
-		<div class="w-10 pr-2 text-red-500 heartbeating">
-			<GiHeartOrgan />
+<nav class:scrolled
+	 class="duration-500 z-50 backdrop-blur-lg fixed w-full navbar py-4">
+	<div class="navbar-start">
+		<div class="dropdown">
+			<label tabindex="0" class="btn btn-ghost lg:hidden">
+				<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+			</label>
+			<ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow rounded-box w-52">
+				<slot />
+			</ul>
 		</div>
-		<a href="/">
-			<p class="font-extrabold text-xl text-red-500">devenir-sst</p>
+		<a class="btn btn-ghost normal-case text-xl">
+			<div class="w-10 pr-2 text-red-500 heartbeating">
+				<GiHeartOrgan />
+			</div>
+			<a href="/">
+				<p class="font-extrabold text-xl text-red-500">devenir-sst</p>
+			</a>
 		</a>
 	</div>
 
-	<div class="flex-initial">
-		<div class="flex justify-end items-center relative">
-			<div class="flex mr-4 items-center gap-6">
-				<a class="duration-300 hover:text-red-500 inline-block py-2 px-3 font-extrabold" href="/">
-					Accueil
-				</a>
-				<a
-					class="duration-300 hover:text-red-500 inline-block py-2 px-3 font-extrabold"
-					href="/equipe"
-				>
-					Équipe
-				</a>
-				<a
-					class="duration-300 hover:bg-black inline-block py-2 px-3 font-extrabold bg-red-500 rounded-full text-white"
-					href="/contact"
-				>
-					Contact
-				</a>
-			</div>
-		</div>
+	<div class="navbar-end hidden lg:flex">
+		<ul class="menu menu-horizontal p-0">
+			<slot />
+		</ul>
 	</div>
 </nav>
 
 <style lang="scss">
 	nav {
-		@apply fixed backdrop-blur-lg w-full flex justify-between items-center mx-auto px-8 h-20;
-
 		&.scrolled {
 			@apply shadow-xl bg-gray-200 bg-opacity-30;
 		}
