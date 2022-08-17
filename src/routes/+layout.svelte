@@ -1,9 +1,7 @@
 <script>
-	import Navbar from '../components/navigation/Navbar.svelte';
-	import Footer from '../components/navigation/Footer.svelte';
+    import '../app.scss';
 
-	import '../app.css';
-	import '../app.scss';
+	import Navbar from '../components/navigation/Navbar.svelte';
     import Navlink from "../components/navigation/Navlink.svelte";
 </script>
 
