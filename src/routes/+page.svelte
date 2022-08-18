@@ -28,8 +28,8 @@
 		<h2 class="text-xl text-red-500 font-bold">Choisissez une formation</h2>
 		<h1 class="text-3xl font-bold">Facile, rapide, humain.</h1>
 		<p class="text-gray-700 font-medium">
-			Tout d'abord, déterminer la formation que vous souhaitez effectuer. Si vous ne savez pas, pas
-			de soucis ! N'hésitez pas à nous contacter pour des renseignements.
+			Tout d'abord, déterminez la formation que vous souhaitez
+			effectuer. N'hésitez pas à nous contacter pour plus d'informations.
 		</p>
 	</div>
 
@@ -45,9 +45,10 @@
 		<h2 class="text-xl text-red-500 font-bold">Prise de rendez-vous</h2>
 		<h1 class="text-3xl font-bold">Tout est planifié, vous choisissez.</h1>
 		<p class="text-gray-700 font-medium">
-			Si vous avez fais votre choix, établissez des dates qui vous arrange et appelez nous pour
-			essayer de prendre rendez-vous. Nous faisons au mieux pour que les rendez-vous vous
-			correspond.
+			Si vous avez fait votre choix, établissez des dates qui vous
+			conviennent et appelez nous pour planifier la formation.
+			Nous ferons au mieux pour que les rendez-vous vous
+			correspondent.
 		</p>
 	</div>
 
