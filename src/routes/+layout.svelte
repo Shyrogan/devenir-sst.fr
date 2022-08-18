@@ -14,5 +14,7 @@
         <Navlink name="SST" href="/formation/sst" />
     </Navlink>
 </Navbar>
+
 <slot />
+
 <Footer />

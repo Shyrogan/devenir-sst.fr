@@ -23,7 +23,7 @@
 				</div>
 			</a>
 			<a
-					href="https://wa.me/33673246864?text=Bonjour,%20je%20souhaiterais%20effectuer%20une%20formation%20%C3%A0%20(SST/PSC1)%20le%20(date),%20cela%20serait-il%20possible%20?"
+					href="https://wa.me/33673246864?text=Bonjour,%20je%20souhaiterais%20des%20reseignements%20sur%20une%20formation%20(SST/PSC1),%20merci."
 			   class="btn btn-accent md:w-auto w-32">
 				<div
 						class="flex flex-row items-center justify-center align-middle">

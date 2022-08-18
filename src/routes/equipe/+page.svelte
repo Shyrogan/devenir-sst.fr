@@ -1,3 +1,7 @@
+<svelte:head>
+	<title>Devenir-SST - Équipe</title>
+</svelte:head>
+
 <div class="flex flex-col justify-center items-center h-screen pt-10">
 	<div class="text-center items-center justify-center py-4">
 		<h1 class="text-4xl font-extrabold">Notre équipe</h1>
