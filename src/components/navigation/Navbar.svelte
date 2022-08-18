@@ -4,6 +4,8 @@
 
 	let scrolled = false;
 	onMount(() => {
+		scrolled = window.scrollY > 0;
+
 		window.onscroll = () => {
 			scrolled = window.scrollY > 0;
 		};

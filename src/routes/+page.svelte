@@ -57,9 +57,3 @@
 		src="/images/planned.svg"
 	/>
 </div>
-
-<style lang="scss">
-	.hero-fade {
-		background: linear-gradient(#ffffff, #e2e8f0);
-	}
-</style>

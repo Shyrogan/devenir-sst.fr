@@ -12,7 +12,7 @@
 			formation aux premiers secours.</p>
 
 		<div
-				class="flex lg:flex-row flex-col gap-6 justify-center items-center lg:mt-28 md:mt-20 mt-12">
+				class="flex lg:flex-row flex-col gap-6 justify-center items-center lg:mt-28 md:mt-20 mt-12 mb-6">
 			<a href="mailto:contact@devenir-sst.fr"
 			   class="btn btn-accent md:w-auto w-32">
 				<div class="flex flex-row items-center justify-center align-middle">
