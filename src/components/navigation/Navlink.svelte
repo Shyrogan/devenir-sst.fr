@@ -24,7 +24,7 @@
 			</svg>
 		</p>
 		<ul tabindex="0"
-			class="menu menu-compact dropdown-content mt-3 p-2 shadow rounded-box
+			class="menu menu-compact dropdown-content mt-3 mx-2 bg-white p-2 shadow rounded-box
 				w-52 lg:w-auto lg:mt-0 ">
 			<slot/>
 		</ul>
