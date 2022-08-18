@@ -1,19 +1,18 @@
-<script lang="ts">
-</script>
-
 <svelte:head>
 	<title>Devenir-SST - Accueil</title>
 </svelte:head>
 
 <div class="h-2/5 flex flex-col items-center justify-center gap-12 lg:mb-24 mb-10 hero-fade">
-	<h1 class="text-center pt-64 lg:text-5xl text-3xl font-extrabold">
+	<h1
+			class="text-center pt-64 lg:text-5xl text-3xl font-extrabold">
 		Les <span class="text-red-500">premiers secours</span>, facilement
 	</h1>
 
 	<p
 			class="text-center lg:text-xl text-lg w-8/12 font-semibold text-gray-600">
-		Vous êtes une startup ou une PME ? Vous souhaitez formez vos employés aux premiers secours ? Que
-		ce soit PSC1 ou SST — Nous sommes là pour vous !
+		Vous êtes une startup, une PME, un artisan ou autre ? Vous souhaitez
+		formez	vos employés aux premiers secours ? Que ce soit PSC1 ou SST
+		— Nous sommes là pour vous !
 	</p>
 </div>
 
@@ -21,7 +20,7 @@
 	<img
 			class="lg:w-9/12 w-full"
 			alt="First aid"
-			src="images/teach.svg" />
+			src="images/teach.svg"/>
 </div>
 
 <div class="flex lg:flex-row flex-col items-center justify-center gap-20 my-32">

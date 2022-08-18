@@ -2,21 +2,50 @@
 	<title>Devenir-SST - Équipe</title>
 </svelte:head>
 
-<div class="flex flex-col justify-center items-center h-screen pt-10">
+<div
+		class="flex flex-col items-center justify-center gap-12 mb-6 hero-fade">
 	<div class="text-center items-center justify-center py-4">
-		<h1 class="text-4xl font-extrabold">Notre équipe</h1>
-		<p class="text-gray-700 font-medium py-3">Les membres de notre équipe.</p>
-	</div>
-
-	<div class="flex flex-row gap-20 justify-center items-center">
-		<div class="flex flex-col duration-500 py-4 px-10 justify-center items-center rounded-lg">
-			<img
-				class="rounded-full my-4 w-52 h-52"
-				src="data:image/jpeg;base64,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"
-				alt="José VIAL"
-			/>
-			<h1 class="text-center text-3xl font-bold">VIAL José</h1>
-			<h3 class="text-center font-semibold py-1 text-red-500">Ancien CRS secouriste en montagne</h3>
-		</div>
+		<h1 class="text-4xl font-extrabold pt-32">Notre équipe</h1>
+		<p class="text-gray-700 font-medium py-3">Les membres de notre équipe
+			s'occupant des formations.</p>
 	</div>
 </div>
+
+	<div
+			class="flex lg:flex-row flex-col gap-12 justify-center items-center mb-20">
+		<div
+				class="flex flex-col duration-500 py-4 px-10 justify-center items-center rounded-lg text-center">
+			<img
+				class="rounded-full my-4 w-52 h-52"
+				src="/images/jose.png"
+				alt="José VIAL"
+			/>
+			<h1 class="text-3xl font-bold">VIAL José</h1>
+			<h3 class="font-semibold py-1 text-red-500">Ancien CRS secouriste en montagne</h3>
+			<p class="font-semibold py-1 text-gray-600 w-64">“Après plus de 27
+				ans	dans le secours en  montagne, je souhaite
+				mettre à profit mes compétences en tant que formateur en
+				sauvetage secourisme du travail.“</p>
+		</div>
+
+		<div
+				class="flex flex-col duration-500 py-4 px-10 justify-center items-center rounded-lg text-center">
+			<img
+					class="rounded-full my-4 w-52 h-52"
+					src="/images/carol.png"
+					alt="José VIAL"
+			/>
+			<h1 class="text-3xl font-bold">FEYDEL Carol</h1>
+			<h3 class="font-semibold py-1 text-red-500">CRS secouriste en montagne</h3>
+			<p class="font-semibold py-1 text-gray-600 w-64">"Toujours en
+				activité, formateur secouriste depuis plus de 18 ans, je me
+				trouve en phase avec ce que ce qui m’anime : secourir,
+				assister, informer,  former."</p>
+		</div>
+	</div>
+
+<style lang="scss">
+	.hero-fade {
+		background: linear-gradient(#ffffff, #e2e8f0);
+	}
+</style>
