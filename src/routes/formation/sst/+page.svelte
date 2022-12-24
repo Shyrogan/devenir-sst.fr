@@ -13,7 +13,7 @@
 </div>
 
 <div class="flex items-center justify-center">
-    <div class="stats">
+    <div class="stats bg-transparent">
         <div class="stat">
             <div class="stat-title">Durée de la formation</div>
             <div class="stat-value">14 heures</div>
@@ -23,7 +23,54 @@
             <div class="stat-title">Participants maximum</div>
             <div class="stat-value">10</div>
             <div class="stat-desc">maximum par formateur et non
-                formation</div>
+                par formation</div>
         </div>
     </div>
+</div>
+
+<div class="flex flex-col justify-center gap-4 mb-2 mx-80 pt-5">
+    <div tabindex="0" class="collapse collapse-arrow border border-4 border-dashed border-base-300 rounded-box bg-transparent">
+  <div class="collapse-title stat-value text-2xl">
+    Description
+  </div>
+  <div class="collapse-content"> 
+    <p class=" text-gray-700 font-medium">
+        Le Sauveteur Secouriste du Travail a pour rôle de porter 
+        les premiers secours à toute victime d'accident du travail 
+        en attendant l'arrivée des secours spécialisés. Il doit être 
+        capable de protéger, d'examiner, d'alerter et de secourir. 
+        Le certificat, délivré par l'INRS, est valable 24 mois. 
+        Le maintient et l'actualisation des compétences doit être 
+        effectué avant la fin de validité du certificat. Vous pouvez 
+        suivre notre formation dans les locaux de votre entreprise, ou nous pouvons nous occuper 
+        de louer des locaux adapter. 
+        Cette formation est éligible au CPF.</p>
+  </div>
+</div>
+</div>
+
+<div class="flex flex-col justify-center gap-4 mb-2 mx-80 py-1">
+    <div tabindex="0" class="collapse collapse-arrow border border-4 border-dashed border-base-300 rounded-box bg-transparent">
+  <div class="collapse-title stat-value text-2xl">
+    Programme
+  </div>
+  <div class="collapse-content"> 
+    <p class=" text-gray-700 font-medium">La prévention des risques professionnels</p>
+    <ul class="list-disc pl-6 text-gray-500 font-medium">
+        <li>Le rôle du SST</li>
+        <li>La réglementation / le cadre juridique</li>
+        <li>Identifier et appréhender les situations dangereuses d’accidents du travail</li>
+        <li>Le mécanisme de l’accident</li>
+        <li>Les actions de prévention et de protection pour limiter les risques</li>
+        <li>Informer les personnes chargées de la prévention dans l’entreprise</li>
+    </ul>
+    <p class=" text-gray-700 font-medium pt-3">Intervention du Sauveteur Secouriste du Travail face à une situation d’accident</p>
+    <ul class="list-disc pl-6 text-gray-500 font-medium">
+        <li>Protéger</li>
+        <li>Examiner</li>
+        <li>Alerter ou faire alerter</li>
+        <li>Secourir</li>
+    </ul>
+  </div>
+</div>
 </div>
