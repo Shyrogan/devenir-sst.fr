@@ -10,8 +10,8 @@
 
 	<p
 			class="text-center lg:text-xl text-lg w-8/12 font-semibold text-gray-600">
-		Vous êtes une startup, une PME, un artisan ou autre ? Vous souhaitez
-		formez	vos employés aux premiers secours ? Que ce soit PSC1 ou SST
+		Vous êtes une PME, un artisan ou une autre structure ? Vous souhaitez
+		former	vos employés aux premiers secours ? Que ce soit une formation PSC1 ou SST
 		— Nous sommes là pour vous !
 	</p>
 </div>
