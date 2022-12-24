@@ -6,8 +6,8 @@
 </script>
 
 {#if $$slots.default}
-	<li tabindex="0">
-		<p class="btn normal-case"
+	<li>
+		<p class="btn rounded normal-case"
 		   class:btn-primary={$page.url.pathname.includes(href)}
 		   class:btn-ghost={!$page.url.pathname.includes(href)}>{name}
 
@@ -23,7 +23,7 @@
 				<path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"/>
 			</svg>
 		</p>
-		<ul tabindex="0"
+		<ul
 			class="menu menu-compact dropdown-content mt-3 mx-2 bg-white p-2 shadow rounded-box
 				w-52 lg:w-auto lg:mt-0 ">
 			<slot/>
@@ -31,9 +31,9 @@
 	</li>
 {:else}
 	<li>
-		<a class:btn-primary={$page.url.pathname === href}
+		<a class="btn rounded normal-case"
+		   class:btn-primary={$page.url.pathname === href}
 		   class:btn-ghost={$page.url.pathname !== href}
-		   class="btn normal-case"
 		   {href}>{name}
 		</a>
 	</li>
